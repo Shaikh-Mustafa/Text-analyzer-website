@@ -1,0 +1,73 @@
+<!-- HTML CSS and Javascript project 1...
+
+Author : Shaikh Mustafa
+Date : 14 Dec 2020
+
+Name of Project : Text Analyzer....  
+
+-->
+
+<html>
+ <head>
+	 <meta charset = 'UTF-8'>
+	 <meta name = 'description' content = 'Analyze any text by using our website'>
+	 <meta name = 'keywords' content = 'Text Analyzer, Online Text Scanner, Text Processor'>
+	 <meta name = 'author' content = 'Shaikh Mustafa Mukhtar'>
+	 <meta name = 'date' content = '20-12-2020'>
+	 
+     <title>TextAnalyzer.com</title>
+	 <script src = 'myscript.js'> </script>
+	 <link rel = 'stylesheet' type = 'text/css' href = 'mystyles.css' />
+	
+ </head>
+
+ <body style = 'background-color : #b9b8ac' id = 'body'>
+  <center>
+    <h1>Online Text Analyzer</h1>
+	<h3> Process Any Text you wish....</h3>    
+			
+	<marquee height = '30' scrollamount = '3'><label for = 'text' class = 'design1'>Enter or Paste the Text Below.....</label></marquee>  <br>
+	
+	<textarea name = 'Text_to_be_processed'  id = 'text' rows = '15' cols = '120' placeholder = 'Enter Text Here.....'></textarea>
+	
+	<button onclick = 'analyze()'>Analyze</button>
+	<br><br>
+	
+		
+	
+	<!-- displaying the final results...-->
+	<p>Number of words : </p> <p id = 'words' class = 'ans'></p><br>
+	<p>Number of letters : </p> <p id = 'letters' class = 'ans'></p><br>
+	<p>Number of White Spaces : </p> <p id = 'spaces' class = 'ans'></p><br>
+		
+	<p>Most Common Word : </p> <p id = 'common' class = 'ans'></p><br>
+	<p>Number Of times Occured : </p> <p id = 'occurance' class = 'ans'></p>
+	
+    <button onclick = 'showtime()';>Click to Display time..</button>
+    
+    <p id='time' class = 'ans'>Time Will be Displayed here</p>	
+	<button onclick = 'changemode(0)'>Day Mode</button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<button onclick = 'changemode(1)'>Night Mode</button>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<button onclick = 'location.reload()'>Default Theme</button>
+  </center>
+ </body>
+</html>
+<!-- My code needs to be simple and less complicated
+but this project does what it is made to do...design is messy.....
+
+location.reload() method refresh the whole page.... i used it to change to the orginal theme...
+NOTE : There's no external JavaScript Used in this website....
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
